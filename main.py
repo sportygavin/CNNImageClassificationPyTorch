@@ -51,7 +51,7 @@ if __name__ == '__main__':
     # Initialize model and training components
     net = NeuralNet()
     loss_function = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(net.parameters(), lr = 0.001, momentum = 0.9)
+    optimizer = optim.SGD(net.parameters(), lr = 0.002, momentum = 0.9)
     
     print("Starting training...")
     for epoch in range(30):
